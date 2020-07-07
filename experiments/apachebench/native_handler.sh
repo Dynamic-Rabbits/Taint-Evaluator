@@ -1,0 +1,1 @@
+echo "sudo $1"

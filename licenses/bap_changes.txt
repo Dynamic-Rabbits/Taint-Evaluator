@@ -1,0 +1,5 @@
+We made the following source-code changes with regards to bap-pin-traces:
+  1) In order to measure the overhead of taint propagation, we removed code responsible for
+     logging traces to file.
+  2) Also, to attain better overhead measurements, we removed control-flow hijacking detection
+     built in bap-pin-traces.

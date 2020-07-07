@@ -1,0 +1,16 @@
+<dytan-config>
+	<sources>
+		<taint-marks>32</taint-marks>
+		<source type="path">
+			<file>sample/wc/a.txt</file>
+			<granularity>PerRead</granularity>
+		</source>
+	</sources>
+	<propagation>
+		<dataflow>true</dataflow>
+		<controlflow>false</controlflow>
+	</propagation>
+	<profiling>
+		<markop>false</markop>
+	</profiling>
+</dytan-config>
