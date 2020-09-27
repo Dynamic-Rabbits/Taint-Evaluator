@@ -1,0 +1,12 @@
+<dytan-config>
+	<sources>
+		<taint-marks>32</taint-marks>
+	</sources>
+	<propagation>
+		<dataflow>true</dataflow>
+		<controlflow>false</controlflow>
+	</propagation>
+	<profiling>
+		<markop>false</markop>
+	</profiling>
+</dytan-config>

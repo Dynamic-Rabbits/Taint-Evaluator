@@ -1,0 +1,3 @@
+We made the following source-code changes with regards to VUzzer:
+  1) In order to measure the overhead of taint propagation, we removed code that pertains to taint checks.
+     This includes routines that are inserted prior to cmp instructions, as well as writes to a log file.
